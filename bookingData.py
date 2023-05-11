@@ -52,4 +52,3 @@ print("Percentage of shifts claimed where 'Lead Time' is between 3 and 4 hours:"
 print("Percentage of shifts claimed where 'Lead Time' is between 4 and 12 hours:", round((claim_four_twelve / booking_count) * 100, 2),"%")
 print("Percentage of shifts claimed where 'Lead Time' is between 12 and 24 hours:", round((claim_twelve_twentyfour / booking_count) * 100, 2),"%")
 print("Percentage of shifts claimed where 'Lead Time' is greater than 24 hours:", round((claim_twentyfour_plus / booking_count) * 100, 2),"%")
-print(shifts.head(10))
